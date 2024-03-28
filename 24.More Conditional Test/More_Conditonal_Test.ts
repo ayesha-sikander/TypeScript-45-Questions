@@ -1,0 +1,14 @@
+console.log("Equality test with string: ", "Apple === Apple");
+console.log("Inequality test with string: ", ("Apple" as string) != "Orange");
+console.log("Lower Case Function Test: ", "Hello".toLowerCase() === "hello");
+console.log("equality test with number: ", 18 === 18 );
+console.log("Inequality test with number: ", (18 as number) != 20);
+console.log("Greater than test: ", 10>5);
+console.log("less than test: ", 5<10);
+console.log("Greater than or equal to test: ", 10>=10);
+console.log("less than or equal to test: ", 5<=5);
+console.log("And Operator test: ", 10===10 && 10>5);
+console.log("Or Operator test: ", 10===10 || false);
+const fruit :string[] = ["Nashpati", "Amrood", "Banana"];
+console.log('Test "Nashpati" in the array' , fruit.includes("Nashpati"));
+console.log('Testing "Apple" is not in the array' , !fruit.includes("Apple"));
